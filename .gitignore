@@ -1,0 +1,6 @@
+calderr-env/
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+.ipynb_checkpoints/
