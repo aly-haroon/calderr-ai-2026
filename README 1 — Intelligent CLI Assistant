@@ -1,0 +1,175 @@
+# ⚽ CalderBot - Intelligent CLI Football Assistant
+
+An intelligent terminal-based AI assistant built with **LangChain**, **Groq**, and **Rich** that provides expert answers about football. The assistant maintains conversation history, supports interactive commands, and delivers beautifully formatted responses directly in the terminal.
+
+---
+
+## Features
+
+- ⚽ Football domain expert
+- 💬 Multi-turn conversation memory
+- 🧠 Powered by Groq Llama 3.3 70B
+- 🎨 Beautiful Rich terminal interface
+- 📜 View conversation history
+- 🗑 Clear conversation memory
+- 📊 Session token usage tracking
+- ⚡ Fast inference using Groq API
+- 🛡 Graceful error handling
+
+---
+
+## Tech Stack
+
+- Python 3.11+
+- LangChain
+- LangChain-Groq
+- Groq API
+- Rich
+- python-dotenv
+
+---
+
+## Architecture
+
+```
+User
+   │
+   ▼
+CLI Interface
+   │
+   ▼
+LangChain Prompt Template
+   │
+   ▼
+Conversation Memory
+   │
+   ▼
+Groq Llama 3.3 70B
+   │
+   ▼
+Formatted Rich Output
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/intelligent-cli-assistant.git
+```
+
+Move into the project
+
+```bash
+cd intelligent-cli-assistant
+```
+
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Activate environment
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env`
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+Run
+
+```bash
+python app.py
+```
+
+---
+
+## Available Commands
+
+| Command | Description |
+|----------|-------------|
+| /history | Show conversation history |
+| /clear | Clear conversation memory |
+| /exit | Exit application |
+
+---
+
+## Example Conversation
+
+```
+You: Who won the 2022 FIFA World Cup?
+
+CalderBot:
+Argentina defeated France on penalties after a thrilling 3-3 draw...
+```
+
+---
+
+## Project Structure
+
+```
+.
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env.example
+└── assets/
+```
+
+---
+
+## Skills Demonstrated
+
+- LangChain Prompt Templates
+- Conversation Memory
+- Groq API Integration
+- Rich Terminal UI
+- Python CLI Development
+- Error Handling
+- Environment Variables
+
+---
+
+## Future Improvements
+
+- Topic switching
+- Conversation export
+- Voice interface
+- Persistent memory
+- Streaming responses
+
+---
+
+## Author
+
+**Your Name**
+
+CalderR Agentic AI Internship 2026
+
+---
+
+## License
+
+MIT License

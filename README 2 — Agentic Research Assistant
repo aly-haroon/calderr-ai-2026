@@ -1,0 +1,200 @@
+# 🔍 Agentic Research Assistant
+
+An AI-powered multi-agent research assistant built using **LangChain**, **Groq**, **Pydantic**, and **Streamlit**.
+
+The application automatically plans research, investigates multiple subtopics using sequential AI calls, synthesizes the findings, and produces a structured research report complete with confidence scores.
+
+---
+
+## Features
+
+- 🤖 Planner Agent
+- 🔍 Sequential Research Agent
+- 🧠 Synthesis Agent
+- 📄 Professional Research Report
+- 📊 Confidence Scores
+- 📈 Live Progress Tracking
+- 🌐 Streamlit Web Interface
+- ⚡ Powered by Groq Llama 3.3 70B
+- ✅ Structured Outputs using Pydantic
+
+---
+
+## Tech Stack
+
+- Python
+- LangChain
+- Groq API
+- Pydantic
+- Streamlit
+- python-dotenv
+
+---
+
+## Agent Architecture
+
+```
+                User Question
+                      │
+                      ▼
+              Planner Agent
+                      │
+      Creates Research Plan
+                      │
+                      ▼
+     Sequential Research Loop
+        │        │        │
+        ▼        ▼        ▼
+    Research Research Research
+        │        │        │
+        └────────┴────────┘
+                 │
+                 ▼
+          Synthesis Agent
+                 │
+                 ▼
+          Final Research Report
+                 │
+                 ▼
+            Streamlit UI
+```
+
+---
+
+## Installation
+
+Clone repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/agentic-research-assistant.git
+```
+
+Enter project
+
+```bash
+cd agentic-research-assistant
+```
+
+Create environment
+
+```bash
+python -m venv venv
+```
+
+Activate
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Install packages
+
+```bash
+pip install -r requirements.txt
+```
+
+Create `.env`
+
+```
+GROQ_API_KEY=your_api_key_here
+```
+
+Run
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Workflow
+
+1. User enters a research question
+2. Planner Agent creates research strategy
+3. Multiple Groq calls investigate subtopics
+4. Synthesis Agent combines findings
+5. Streamlit displays final report
+
+---
+
+## Example Research Topics
+
+- What is Agentic AI?
+- Future of Quantum Computing
+- Climate Change Technologies
+- Artificial General Intelligence
+- Renewable Energy
+
+---
+
+## Output
+
+Each report includes
+
+- Executive Summary
+- Detailed Findings
+- Key Points
+- Confidence Scores
+- Final Conclusion
+
+---
+
+## Project Structure
+
+```
+.
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env.example
+└── assets/
+```
+
+---
+
+## Skills Demonstrated
+
+- Agentic AI
+- Planning Agents
+- Sequential Agent Loops
+- LangChain
+- Structured Outputs
+- Pydantic
+- Streamlit
+- LLM Orchestration
+- Prompt Engineering
+- Report Generation
+
+---
+
+## Future Improvements
+
+- Web search integration
+- Citation support
+- PDF export
+- Report download
+- Vector database
+- Multi-agent collaboration
+- Memory
+
+---
+
+## Deployment
+
+Deploy easily on Streamlit Community Cloud.
+
+---
+
+## Author
+
+**Your Name**
+
+CalderR Agentic AI Internship 2026
+
+---
+
+## License
+
+MIT License
