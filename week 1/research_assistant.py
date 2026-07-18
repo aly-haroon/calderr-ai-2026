@@ -190,7 +190,8 @@ def main():
         status_text.text("✅ Research complete!")
 
         # Display Report
-        st.markdown("---")
+        st.markdo
+        wn("---")
         st.header(f"📄 {report.title}")
 
         # Summary

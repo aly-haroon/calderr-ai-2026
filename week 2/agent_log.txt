@@ -1,0 +1,61 @@
+2026-07-16 12:56:06,471 - INFO - New query: What is the weather in Karachi?
+2026-07-16 12:56:06,938 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:06,954 - INFO - Weather request for: Karachi
+2026-07-16 12:56:06,954 - WARNING - try_primary attempt 1 failed: Weather API timeout for Karachi
+2026-07-16 12:56:07,464 - WARNING - try_primary attempt 2 failed: Weather API timeout for Karachi
+2026-07-16 12:56:08,479 - INFO - try_primary succeeded on attempt 3
+2026-07-16 12:56:08,484 - INFO - Primary weather API succeeded for Karachi
+2026-07-16 12:56:08,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:08,660 - INFO - Final answer: The current weather in Karachi is sunny with a temperature of 35°C and a humidity of 70%.
+2026-07-16 12:56:08,666 - INFO - New query: What is the current price of AAPL stock?
+2026-07-16 12:56:08,851 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:08,861 - INFO - Stock request for: AAPL
+2026-07-16 12:56:08,861 - WARNING - try_primary attempt 1 failed: Stock API rate limit exceeded for AAPL
+2026-07-16 12:56:09,371 - WARNING - try_primary attempt 2 failed: Stock API rate limit exceeded for AAPL
+2026-07-16 12:56:10,381 - INFO - try_primary succeeded on attempt 3
+2026-07-16 12:56:10,381 - INFO - Primary stock API succeeded for AAPL
+2026-07-16 12:56:10,760 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:10,760 - INFO - Final answer: The current price of AAPL stock is $189.50, with a 1.2% increase.
+2026-07-16 12:56:10,772 - INFO - New query: What is the weather in London and the GOOGL stock price?
+2026-07-16 12:56:11,164 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:11,171 - INFO - Weather request for: London
+2026-07-16 12:56:11,171 - WARNING - try_primary attempt 1 failed: Weather API timeout for London
+2026-07-16 12:56:11,674 - INFO - try_primary succeeded on attempt 2
+2026-07-16 12:56:11,674 - INFO - Primary weather API succeeded for London
+2026-07-16 12:56:11,674 - INFO - Stock request for: GOOGL
+2026-07-16 12:56:11,674 - WARNING - try_primary attempt 1 failed: Stock API rate limit exceeded for GOOGL
+2026-07-16 12:56:12,182 - WARNING - try_primary attempt 2 failed: Stock API rate limit exceeded for GOOGL
+2026-07-16 12:56:13,186 - INFO - try_primary succeeded on attempt 3
+2026-07-16 12:56:13,186 - INFO - Primary stock API succeeded for GOOGL
+2026-07-16 12:56:13,418 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:13,419 - INFO - Final answer: The current weather in London is rainy with a temperature of 15°C and humidity of 85%. The current stock price of GOOGL is $141.20, which is a decrease of 0.5%.
+2026-07-16 12:56:13,421 - INFO - New query: What is 15% of 50000?
+2026-07-16 12:56:13,593 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:14,131 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 12:56:14,141 - INFO - Final answer: The result of the calculation is 7500.0.
+2026-07-16 13:47:06,541 - INFO - New query: What is the weather in Karachi?
+2026-07-16 13:47:07,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:07,394 - INFO - Weather request for: Karachi
+2026-07-16 13:47:07,396 - WARNING - try_primary attempt 1 failed: Weather API timeout for Karachi
+2026-07-16 13:47:07,906 - INFO - try_primary succeeded on attempt 2
+2026-07-16 13:47:07,914 - INFO - Primary weather API succeeded for Karachi
+2026-07-16 13:47:08,150 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:08,154 - INFO - Final answer: The current weather in Karachi is sunny with a temperature of 35°C and a humidity of 70%.
+2026-07-16 13:47:08,172 - INFO - New query: What is the current price of AAPL stock?
+2026-07-16 13:47:08,335 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:08,348 - INFO - Stock request for: AAPL
+2026-07-16 13:47:08,351 - INFO - Primary stock API succeeded for AAPL
+2026-07-16 13:47:08,520 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:08,524 - INFO - Final answer: The current price of AAPL stock is $189.50, with a 1.2% increase.
+2026-07-16 13:47:08,541 - INFO - New query: What is the weather in London and the GOOGL stock price?
+2026-07-16 13:47:08,743 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:08,754 - INFO - Weather request for: London
+2026-07-16 13:47:08,757 - INFO - Primary weather API succeeded for London
+2026-07-16 13:47:08,770 - INFO - Stock request for: GOOGL
+2026-07-16 13:47:08,773 - INFO - Primary stock API succeeded for GOOGL
+2026-07-16 13:47:09,267 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:09,271 - INFO - Final answer: The current weather in London is rainy with a temperature of 15°C and humidity of 85%. The current stock price of GOOGL is $141.20, which is a decrease of 0.5%.
+2026-07-16 13:47:09,287 - INFO - New query: What is 15% of 50000?
+2026-07-16 13:47:09,582 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:09,870 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-07-16 13:47:09,872 - INFO - Final answer: The result of the calculation is 7500.0.
